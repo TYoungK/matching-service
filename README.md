@@ -10,6 +10,7 @@
 
 - Java 21
 - Spring Boot 3.4.4
+- Gradle 8.13(Wrapper)
 - Spring Data JPA
 - Springdoc OpenAPI (Swagger) -> API 문서 자동화
 - MySQL
@@ -51,6 +52,7 @@ MySQL까지 포함된 단일 Docker 컨테이너로 실행됩니다. 별도 설�
 
 
 ```bash
+./gradlew build
 docker build -t matching-service .
 ```
 
